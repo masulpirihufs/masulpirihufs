@@ -4,10 +4,11 @@
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>Insight | 한국외국어대학교 마케팅학회 마술피리</title>
-<meta name="description" content="한국외국어대학교 마케팅학회 마술피리(HUFS MAPI)의 논문·리포트 인사이트 아카이브" />
+<meta name="description" content="한국외국어대학교 마케팅학회 마술피리(HUFS MAPI)의 논문 분석에서 시작된 인스타그램 콘텐츠 갤러리" />
 <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css" />
 <link rel="stylesheet" href="css/style.css" />
+<link rel="stylesheet" href="css/insight.css" />
 </head>
 <body class="insight-page">
 
@@ -39,63 +40,25 @@
 <main>
   <div class="page-header">
     <div class="wrap">
-      <h1>마술피리의 인사이트</h1>
-      <p>학회원들이 분석한 논문·리포트를 카테고리별 폴더로 확인해보세요</p>
+      <p class="eyebrow">MAPI INSIGHT</p>
+      <h1>논문을 읽고, 마케팅을 다시 보다.</h1>
+      <p>하나의 논문에서 시작된 질문, 마술피리만의 시선으로 완성한 인사이트를 만나보세요.</p>
     </div>
   </div>
 
   <section class="insight page-content">
     <div class="wrap">
-      <div class="insight-tabs" id="insightTabs" role="tablist">
-        <button class="insight-tab is-active" data-category="all" type="button">All</button>
-        <button class="insight-tab" data-category="consumer" type="button">Consumer Behavior</button>
-        <button class="insight-tab" data-category="branding" type="button">Branding</button>
-        <button class="insight-tab" data-category="digital" type="button">Digital Marketing</button>
-        <button class="insight-tab" data-category="data" type="button">Data Analysis</button>
+      <div class="insight-tabs" id="insightFilters" role="group" aria-label="인사이트 주제 필터">
+        <button class="insight-filter is-active" data-category="all" type="button" aria-pressed="true">전체</button>
+        <button class="insight-filter" data-category="consumer" type="button" aria-pressed="false">소비자 의사결정</button>
+        <button class="insight-filter" data-category="branding" type="button" aria-pressed="false">브랜드와 정체성</button>
+        <button class="insight-filter" data-category="social" type="button" aria-pressed="false">소셜미디어 마케팅</button>
+        <button class="insight-filter" data-category="pricing" type="button" aria-pressed="false">가격과 프로모션</button>
+        <button class="insight-filter" data-category="ai" type="button" aria-pressed="false">AI와 마케팅</button>
       </div>
-
-      <div class="folder-grid" id="folderGrid">
-        <a href="#" class="folder-card" data-category="consumer">
-          <div class="folder-icon" aria-hidden="true"></div>
-          <h4>[논문 제목을 입력하세요]</h4>
-          <p>[XX기 팀명]</p>
-        </a>
-        <a href="#" class="folder-card" data-category="consumer">
-          <div class="folder-icon" aria-hidden="true"></div>
-          <h4>[논문 제목을 입력하세요]</h4>
-          <p>[XX기 팀명]</p>
-        </a>
-        <a href="#" class="folder-card" data-category="branding">
-          <div class="folder-icon" aria-hidden="true"></div>
-          <h4>[논문 제목을 입력하세요]</h4>
-          <p>[XX기 팀명]</p>
-        </a>
-        <a href="#" class="folder-card" data-category="branding">
-          <div class="folder-icon" aria-hidden="true"></div>
-          <h4>[논문 제목을 입력하세요]</h4>
-          <p>[XX기 팀명]</p>
-        </a>
-        <a href="#" class="folder-card" data-category="digital">
-          <div class="folder-icon" aria-hidden="true"></div>
-          <h4>[논문 제목을 입력하세요]</h4>
-          <p>[XX기 팀명]</p>
-        </a>
-        <a href="#" class="folder-card" data-category="digital">
-          <div class="folder-icon" aria-hidden="true"></div>
-          <h4>[논문 제목을 입력하세요]</h4>
-          <p>[XX기 팀명]</p>
-        </a>
-        <a href="#" class="folder-card" data-category="data">
-          <div class="folder-icon" aria-hidden="true"></div>
-          <h4>[논문 제목을 입력하세요]</h4>
-          <p>[XX기 팀명]</p>
-        </a>
-        <a href="#" class="folder-card" data-category="data">
-          <div class="folder-icon" aria-hidden="true"></div>
-          <h4>[논문 제목을 입력하세요]</h4>
-          <p>[XX기 팀명]</p>
-        </a>
-      </div>
+      <div class="folder-grid" id="folderGrid" aria-label="인사이트 콘텐츠"></div>
+      <p class="insight-empty" id="insightEmpty" role="status">아직 등록된 인사이트가 없습니다</p>
+      <noscript><p class="insight-empty">콘텐츠를 확인하려면 JavaScript를 활성화해 주세요.</p></noscript>
     </div>
   </section>
 
@@ -120,5 +83,7 @@
 </main>
 
 <script src="js/main.js"></script>
+<script src="js/insight-data.js"></script>
+<script src="js/insight.js"></script>
 </body>
 </html>
