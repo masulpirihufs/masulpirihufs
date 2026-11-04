@@ -1,0 +1,59 @@
+.activities-page > .page-backdrop img{filter:blur(4px);transform:scale(1.015);transform-origin:center top}
+.activities-page > .page-backdrop .page-backdrop-overlay{background:linear-gradient(180deg,rgba(0,0,0,.72),rgba(0,0,0,.65) 45%,rgba(0,0,0,.82))}
+.activities-page .page-header{padding-bottom:40px}
+.activities-page .cards.page-content{padding-top:32px}
+.activities-page .page-header h1{font-size:clamp(28px,3.6vw,44px);line-height:1.5;word-break:keep-all}
+.activities-page .page-header > .wrap > p{max-width:800px;line-height:1.8;word-break:keep-all}
+.activities-page .cards-grid{grid-template-columns:repeat(3,minmax(0,1fr));gap:24px;align-items:stretch}
+.activities-page .cards .card{padding:32px 28px;display:flex;flex-direction:column;transform:none;box-shadow:none;transition:border-color .2s ease}
+.activities-page .cards .card-icon{flex-shrink:0;margin-bottom:24px}
+.activities-page .cards .card h3{font-size:21px;line-height:1.5;margin:0 0 16px;word-break:keep-all}
+.activities-page .cards .card p{font-size:14.5px;line-height:1.9;margin:0;word-break:keep-all;overflow-wrap:break-word}
+.activities-note{font-size:13px;line-height:1.8;color:var(--ink-soft);margin:24px 0 0;word-break:keep-all}
+@media(max-width:960px) and (min-width:721px){
+  .activities-page .cards-grid{gap:16px}
+  .activities-page .cards .card{padding:26px 20px}
+}
+.regular-sessions{padding:20px 0 64px}
+.session-heading{text-align:center;margin:0 auto 40px;max-width:760px}
+.session-eyebrow{color:rgba(255,255,255,.65);font-size:13px;font-weight:700;letter-spacing:.2em}
+.session-heading h2{font-size:clamp(26px,3.4vw,36px);margin:16px 0;color:#fff}
+.session-heading p:not(.session-eyebrow){font-size:15px;line-height:1.8;color:var(--ink-soft);word-break:keep-all}
+.session-schedule span{display:inline-block;margin-left:12px;font-size:13px}
+.session-timeline{max-width:920px;margin:0 auto;padding:0;list-style:none}
+.curriculum-note{max-width:920px;margin:24px auto 0;padding-left:48px;font-size:13px;line-height:1.8;color:var(--ink-soft);word-break:keep-all}
+.session-item{position:relative;padding:0 0 24px 48px}
+.session-item::before{content:'';position:absolute;left:11px;top:22px;bottom:-22px;width:2px;background:rgba(255,255,255,.16)}
+.session-item:last-child{padding-bottom:0}
+.session-item:last-child::before{display:none}
+.session-dot{position:absolute;left:2px;top:calc(50% - 22px);width:20px;height:20px;border:2px solid var(--ink-faint);border-radius:50%;background:var(--sheet)}
+.session-panel{
+  position:relative;display:grid;grid-template-columns:1fr 1.2fr;gap:32px;align-items:center;
+  min-height:190px;padding:32px;border:1px solid var(--line);border-radius:var(--radius-md);
+  background:rgba(21,23,28,.94);transition:border-color .25s ease,background .25s ease;
+}
+.session-number{font-size:13px;font-weight:800;color:var(--accent);letter-spacing:.1em}
+.session-panel h3{font-size:22px;color:#fff;line-height:1.5;margin:12px 0 0;word-break:keep-all}
+.session-panel p{font-size:13px;line-height:1.9;color:var(--ink-soft);word-break:keep-all;margin:0}
+.session-panel.has-photo{overflow:hidden;isolation:isolate}
+.session-photo{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center 60%;z-index:-2;opacity:.5;transition:opacity .25s ease}
+.session-panel.has-photo::before{content:'';position:absolute;inset:0;z-index:-1;background:linear-gradient(90deg,rgba(0,0,0,.7),rgba(0,0,0,.45))}
+.session-panel.has-photo p{color:rgba(255,255,255,.9)}
+.session-panel.has-photo .session-number{color:#fff}
+.session-item.is-current .session-photo{opacity:.85}
+.session-item.is-current .session-dot{border-color:var(--accent);background:var(--accent);outline:5px solid rgba(1,77,154,.2)}
+.session-item.is-current .session-panel{border-color:var(--accent);background:linear-gradient(115deg,rgba(1,77,154,.22),rgba(21,23,28,.97) 65%)}
+@media(max-width:720px){
+  .activities-page .cards-grid{grid-template-columns:1fr;gap:20px}
+  .regular-sessions{padding:0 0 40px}
+  .session-heading{margin-bottom:28px}
+  .session-schedule span{display:block;margin:4px 0 0}
+  .session-item{padding-left:32px;padding-bottom:20px}
+  .curriculum-note{padding-left:32px}
+  .session-item::before{left:8px}
+  .session-dot{left:0;width:18px;height:18px;top:calc(50% - 19px)}
+  .session-panel{grid-template-columns:1fr;gap:18px;min-height:0;padding:24px 20px}
+  .session-panel h3{font-size:20px}
+  .session-panel p{font-size:15px}
+}
+@media(prefers-reduced-motion:reduce){.session-panel,.session-photo{transition:none}}
