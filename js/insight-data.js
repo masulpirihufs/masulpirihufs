@@ -91,5 +91,18 @@ window.MAPI_INSIGHTS = [
     "instagramUrl": "https://www.instagram.com/p/DfEGUTkGo5H/",
     "publishedAt": "2026-10-28",
     "isPublished": true
+  },
+  {
+    "id": "instagram-DfblySSmrMw",
+    "title": "칭찬이 많을수록 효과적일까? 인플루언서 마케팅의 조건",
+    "category": "social",
+    "author": "59기 조한비",
+    "paperTitle": "Influencer Marketing Effectiveness",
+    "paperAuthors": "F. F. Leung, F. F. Gu, Y. Li, J. Z. Zhang & R. W. Palmatier",
+    "paperYear": 2022,
+    "image": "",
+    "instagramUrl": "https://www.instagram.com/p/DfblySSmrMw/",
+    "publishedAt": "2026-11-06",
+    "isPublished": true
   }
 ];
