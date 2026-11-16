@@ -104,5 +104,31 @@ window.MAPI_INSIGHTS = [
     "instagramUrl": "https://www.instagram.com/p/DfblySSmrMw/",
     "publishedAt": "2026-11-06",
     "isPublished": true
+  },
+  {
+    "id": "instagram-DftJebrGuKZ",
+    "title": "별점 리뷰는 판매를 어떻게 바꿀까? 온라인 구전의 영향",
+    "category": "social",
+    "author": "60기 김민지",
+    "paperTitle": "The Effect of Word of Mouth on Sales: Online Book Reviews",
+    "paperAuthors": "J. A. Chevalier & D. Mayzlin",
+    "paperYear": 2006,
+    "image": "",
+    "instagramUrl": "https://www.instagram.com/p/DftJebrGuKZ/",
+    "publishedAt": "2026-11-13",
+    "isPublished": true
+  },
+  {
+    "id": "instagram-Dfw87l4Gtcs",
+    "title": "같은 협찬, 다른 반응: 신뢰와 이야기로 읽는 구전 마케팅",
+    "category": "social",
+    "author": "59기 김혜린",
+    "paperTitle": "Networked Narratives: Understanding Word-of-Mouth Marketing in Online Communities",
+    "paperAuthors": "Kozinets et al.",
+    "paperYear": 2010,
+    "image": "",
+    "instagramUrl": "https://www.instagram.com/p/Dfw87l4Gtcs/",
+    "publishedAt": "2026-11-15",
+    "isPublished": true
   }
 ];
