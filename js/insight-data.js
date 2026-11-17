@@ -130,5 +130,18 @@ window.MAPI_INSIGHTS = [
     "instagramUrl": "https://www.instagram.com/p/Dfw87l4Gtcs/",
     "publishedAt": "2026-11-15",
     "isPublished": true
+  },
+  {
+    "id": "instagram-Df059W2GqMu",
+    "title": "기업은 왜 친구 추천에 투자할까? 입소문 마케팅의 장기 효과",
+    "category": "social",
+    "author": "60기 조주영",
+    "paperTitle": "Effects of Word-of-Mouth Versus Traditional Marketing: Findings from an Internet Social Networking Site",
+    "paperAuthors": "M. Trusov, R. E. Bucklin & K. Pauwels",
+    "paperYear": 2009,
+    "image": "",
+    "instagramUrl": "https://www.instagram.com/p/Df059W2GqMu/",
+    "publishedAt": "2026-11-16",
+    "isPublished": true
   }
 ];
