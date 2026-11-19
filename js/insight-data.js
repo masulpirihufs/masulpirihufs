@@ -143,5 +143,18 @@ window.MAPI_INSIGHTS = [
     "instagramUrl": "https://www.instagram.com/p/Df059W2GqMu/",
     "publishedAt": "2026-11-16",
     "isPublished": true
+  },
+  {
+    "id": "instagram-Df4dmfMmj1y",
+    "title": "2.99는 왜 더 싸 보일까? 가격의 왼쪽 자릿수 효과",
+    "category": "pricing",
+    "author": "60기 강동현",
+    "paperTitle": "Penny Wise and Pound Foolish: The Left-Digit Effect in Price Cognition",
+    "paperAuthors": "M. Thomas & V. Morwitz",
+    "paperYear": 2005,
+    "image": "",
+    "instagramUrl": "https://www.instagram.com/p/Df4dmfMmj1y/",
+    "publishedAt": "2026-11-18",
+    "isPublished": true
   }
 ];
