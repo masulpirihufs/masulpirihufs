@@ -1,4 +1,4 @@
-// Paper information verified against linked post captions; presenters supplied by the user.
+// Paper information verified against linked post captions; presenters and categories supplied by the user.
 // Cover images are optional; absent covers use the existing blue folder.
 window.MAPI_INSIGHTS = [
   {
@@ -155,6 +155,45 @@ window.MAPI_INSIGHTS = [
     "image": "",
     "instagramUrl": "https://www.instagram.com/p/Df4dmfMmj1y/",
     "publishedAt": "2026-11-18",
+    "isPublished": true
+  },
+  {
+    "id": "instagram-Df6mlm0Gv7B",
+    "title": "왜 우리는 무료에 더 끌릴까? 0원이 바꾸는 소비자의 선택",
+    "category": "pricing",
+    "author": "59기 김옥기",
+    "paperTitle": "Zero as a Special Price: The True Value of Free Products",
+    "paperAuthors": "K. Shampanier, N. Mazar & D. Ariely",
+    "paperYear": 2007,
+    "image": "",
+    "instagramUrl": "https://www.instagram.com/p/Df6mlm0Gv7B/",
+    "publishedAt": "2026-11-19",
+    "isPublished": true
+  },
+  {
+    "id": "instagram-Df6mzJ6mgzo",
+    "title": "하루 천 원이면 괜찮을까? 가격을 쪼개는 프레이밍의 심리",
+    "category": "pricing",
+    "author": "59기 강석영",
+    "paperTitle": "Pennies-a-Day: The Effect of Temporal Reframing on Transaction Evaluation",
+    "paperAuthors": "J. T. Gourville",
+    "paperYear": 1998,
+    "image": "",
+    "instagramUrl": "https://www.instagram.com/p/Df6mzJ6mgzo/",
+    "publishedAt": "2026-11-19",
+    "isPublished": true
+  },
+  {
+    "id": "instagram-Df_ff-pml8u",
+    "title": "노트북은 AI, 향수는 친구? 소비 맥락에 따라 달라지는 추천 선호",
+    "category": "pricing",
+    "author": "60기 김효빈",
+    "paperTitle": "Artificial Intelligence in Utilitarian vs. Hedonic Contexts: The “Word-of-Machine” Effect",
+    "paperAuthors": "C. Longoni & L. Cian",
+    "paperYear": 2022,
+    "image": "",
+    "instagramUrl": "https://www.instagram.com/p/Df_ff-pml8u/",
+    "publishedAt": "2026-11-20",
     "isPublished": true
   }
 ];
